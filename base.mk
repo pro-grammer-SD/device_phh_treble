@@ -263,9 +263,3 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.settings.large_screen_opt.enabled=true
 
-
-# F+ T800 / MT8788: Fix ubsan: sub-overflow in libmedia_codeclist_capabilities.so
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/fpt/t800/lib64/libmedia_codeclist_capabilities.so:system/lib64/libmedia_codeclist_capabilities.so \
-    $(LOCAL_PATH)/proprietary/fpt/t800/lib/libmedia_codeclist_capabilities.so:system/lib/libmedia_codeclist_capabilities.so
-
