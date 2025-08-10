@@ -1,3 +1,0 @@
-# Permissões para ler informações da bateria
-allow system_app sysfs_batteryinfo:file { open getattr read };
-allow system_app sysfs_batteryinfo:dir { open getattr read search };
