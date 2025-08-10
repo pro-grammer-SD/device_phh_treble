@@ -24,3 +24,4 @@
 /sys/class/power_supply/battery(/.*)?    u:object_r:sysfs_batteryinfo:s0
 
 
+/sys/class/mm(/.*)?    u:object_r:sysfs_mm:s0

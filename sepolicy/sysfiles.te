@@ -3,3 +3,11 @@ allow platform_app sysfs:file { read open getattr };
 allow platform_app sysfs_net:file { read open getattr };
 allow platform_app sysfs_net:dir { read open getattr search };
 allow platform_app sysfs:dir { read open getattr search };
+
+
+# F+ T800 / MT8788: Universal access to /sys/class/mm
+type sysfs_mm, fs_type, file_type;
+init_daemon_domain(sysfs_mm)
+
+# Fix system_server map access
+allow system_server system_file:dir map;
