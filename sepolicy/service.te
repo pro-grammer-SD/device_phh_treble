@@ -1,5 +1,2 @@
 type qcrilam_service,    service_manager_type;
-
-type fingerprint_hidl_service, hwservice_manager_type;
-type hal_fingerprint_hwservice, hwservice_manager_type;
-
+type fingerprint_hidl_service, system_api_service, service_manager_type;

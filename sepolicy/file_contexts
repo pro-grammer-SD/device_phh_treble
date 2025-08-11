@@ -20,12 +20,3 @@
 /dev/smcinvoke u:object_r:smcinvoke_device:s0
 /system/bin/hw/android\.hardware\.bluetooth\.audio-service-system u:object_r:hal_audio_sysbta_exec:s0
 
-# Fingerprint HAL (AIDL & HIDL)
-# AIDL service
-/dev/vndbinder                       u:object_r:vndbinder_device:s0
-/dev/binder                          u:object_r:binder_device:s0
-
-# Socket/Device Nodes do fingerprint (ajustar se necessário para seu hardware)
-#/dev/goodix_fp                      u:object_r:fingerprint_device:s0
-#/dev/fpc1020                        u:object_r:fingerprint_device:s0
-

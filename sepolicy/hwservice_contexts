@@ -1,5 +1,0 @@
-# --- Fingerprint HIDL ---
-android.hardware.biometrics.fingerprint::IFingerprint/default   u:object_r:fingerprint_hidl_service:s0
-
-# --- Fingerprint AIDL ---
-android.hardware.biometrics.fingerprint.IFingerprint/default    u:object_r:hal_fingerprint_hwservice:s0
