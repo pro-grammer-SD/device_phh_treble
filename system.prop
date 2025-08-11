@@ -29,7 +29,7 @@ ro.support_one_handed_mode=true
 bluetooth.device.class_of_device=90,2,12
 
 # Enable system-side generic bluetooth audio HAL
-persist.bluetooth.system_audio_hal.enabled=true
+persist.bluetooth.system_audio_hal.enabled=false
 # Set commonly-supported Bluetooth profiles to enabled
 # TODO: Enable BLE Audio profiles on newer vendors
 bluetooth.profile.asha.central.enabled?=true
@@ -70,6 +70,18 @@ persist.radio.VT_ENABLE=1
 # Other Options
 persist.sys.cust.lte_config=true
 persist.rcs.supported=1
+
+# Default heap sizes. Allow up to 256m for large heaps to make sure a single app
+# doesn't take all of the RAM.
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapsize=256m
+dalvik.vm.madvise-random=true
+dalvik.vm.madvise.vdexfile.size=31457280
+dalvik.vm.madvise.odexfile.size=31457280
+dalvik.vm.madvise.artfile.size=0
+
+# disable machine learning
+ro.nnapi.extensions.deny_on_product=true
 
 # Everything that exists is born without reason, prolongs itself through weakness and dies through an unforeseen encounter.
 
