@@ -14,7 +14,6 @@ PRODUCT_SYSTEM_MANUFACTURER := google
 PRODUCT_MODEL := Infinity X GSI
 
 TARGET_PRODUCT_PROP += device/phh/treble/product.prop
-TARGET_PRODUCT_PROP += device/phh/treble/vendor.prop
 
 # OTA
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

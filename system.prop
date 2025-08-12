@@ -50,6 +50,10 @@ bluetooth.profile.sap.server.enabled?=true
 # Samsung vendors default to a Samsung-specific gadget for MTP. Set this to use AOSP's functionfs MTP
 vendor.usb.use_ffs_mtp=1
 
+# Camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera,com.mediatek.camera
+vendor.camera.aux.packagelist=org.lineageos.aperture
+
 # Force LTE_CA
 persist.sys.radio.force_lte_ca=true
 
