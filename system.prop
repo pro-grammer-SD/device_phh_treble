@@ -51,8 +51,7 @@ bluetooth.profile.sap.server.enabled?=true
 vendor.usb.use_ffs_mtp=1
 
 # Camera
-persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera,com.mediatek.camera
-vendor.camera.aux.packagelist=org.lineageos.aperture
+persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera,com.mediatek.camera,org.codeaurora.snapcam
 
 # Force LTE_CA
 persist.sys.radio.force_lte_ca=true
@@ -79,6 +78,8 @@ persist.rcs.supported=1
 # doesn't take all of the RAM.
 dalvik.vm.heapgrowthlimit=128m
 dalvik.vm.heapsize=256m
+dalvik.vm.madvise.vdexfile.size=104857600
+dalvik.vm.madvise.odexfile.size=104857600
 dalvik.vm.madvise-random=true
 dalvik.vm.madvise.artfile.size=0
 
