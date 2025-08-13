@@ -1,6 +1,4 @@
 persist.sys.sf.hs_mode         u:object_r:sf_hs_mode_prop:s0
 hwc.exynos.vsync_mode      u:object_r:vendor_hwc_prop:s0
 
-
-vendor.camera.aux.packagelist              u:object_r:vendor_persist_camera_prop:s0
 persist.vendor.camera.privapp.list         u:object_r:vendor_persist_camera_prop:s0
