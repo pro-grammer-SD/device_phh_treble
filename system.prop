@@ -78,8 +78,8 @@ persist.rcs.supported=1
 # doesn't take all of the RAM.
 dalvik.vm.heapgrowthlimit=128m
 dalvik.vm.heapsize=256m
-dalvik.vm.madvise.vdexfile.size=31457280
-dalvik.vm.madvise.odexfile.size=31457280
+dalvik.vm.madvise.vdexfile.size=104857600
+dalvik.vm.madvise.odexfile.size=104857600
 dalvik.vm.madvise-random=true
 dalvik.vm.madvise.artfile.size=0
 
