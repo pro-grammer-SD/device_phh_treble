@@ -1,7 +1,0 @@
-apex {
-    name: "com.android.runtime",
-    file_contexts: ":com.android.runtime",
-    src: "com.android.runtime.apex",
-    prebuilt: true,
-    installable: true,
-}
