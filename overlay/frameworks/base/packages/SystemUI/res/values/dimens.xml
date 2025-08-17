@@ -21,13 +21,9 @@
     <dimen name="status_bar_padding_start">3.0dp</dimen>
     <dimen name="status_bar_padding_top">5.0dp</dimen>
     <dimen name="qs_icon_size">18.849976dip</dimen>
-    <dimen name="qs_icon_size_x">18.849976dip</dimen>
     <dimen name="qs_corner_radius">56.0dip</dimen>
-    <dimen name="qs_corner_radius_x">56.0dip</dimen>
-    <dimen name="qs_tile_height">68.849976dip</dimen>
-    <dimen name="qs_tile_height_x">68.849976dip</dimen>
+    <dimen name="qs_tile_height">65.86805dp</dimen>
     <dimen name="qs_tile_text_size">12.859955dip</dimen>
-    <dimen name="qs_tile_text_size_x">12.859955dip</dimen>
     <dimen name="rounded_corner_content_padding">16.0dip</dimen>
     <!--  Blur radius on status bar window and power menu  -->
     <dimen name="min_window_blur_radius">1px</dimen>
@@ -38,4 +34,12 @@
 
     <!-- Blur radius behind Notification Shade -->
     <dimen name="max_shade_window_blur_radius">23px</dimen>
+
+    <dimen name="qs_media_session_height_expanded">156dp</dimen>
+    <dimen name="qs_media_session_height_collapsed">108dp</dimen>
+
+    <dimen name="qs_panel_padding_top">56dp</dimen>
+
+    <!-- The font size for the clock in the status bar. -->
+    <dimen name="status_bar_clock_size">15.809938dp</dimen>
 </resources>
