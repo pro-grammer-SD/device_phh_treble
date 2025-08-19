@@ -2,4 +2,4 @@ allow vold system_data_file:lnk_file { unlink };
 allow mediaextractor sdcard_type:file read;
 
 # Allow cold to write to sysfs memory
-allow vold sysfs_memory:file write;
+allow vold sysfs:file write;
