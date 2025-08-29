@@ -1,0 +1,11 @@
+# recovery.te - SELinux rules for recovery
+
+# Permitir leitura de FIFOs no rootfs
+allow recovery rootfs:fifo_file read;
+
+# Permitir acesso ao vibrator via sysfs
+allow recovery sysfs_vibrator:file { open read write getattr };
+
+# Permitir escrita e criação de arquivos em /data/media ou /sdcard
+allow recovery media_rw_data_file:dir { write add_name };
+allow recovery media_rw_data_file:file { write create open getattr };
