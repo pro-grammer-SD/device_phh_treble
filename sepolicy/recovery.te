@@ -1,9 +1,4 @@
-# Vibrator
-allow recovery sysfs_vibrator:file { open read write getattr };
-
-# MTP
-allow recovery mtp_device:chr_file { open read write getattr };
-
-# /data/media/0
-allow recovery media_rw_data_file:dir { open read write getattr search add_name remove_name };
-allow recovery media_rw_data_file:file { open read write getattr create setattr unlink relabelfrom relabelto };
+allow recovery sysfs_vibrator:file rw_file_perms;
+allow recovery mtp_device:chr_file r_file_perms;
+allow recovery media_rw_data_file:dir r_dir_perms;
+allow recovery media_rw_data_file:file r_file_perms;
