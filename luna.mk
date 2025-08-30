@@ -30,6 +30,8 @@ WITH_GMS := true
 TARGET_USES_OMNI_GAPPS := true
 # WITH_GMS := false
 
+PRODUCT_USE_SCUDO := true
+
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 

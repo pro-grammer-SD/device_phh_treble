@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="max_depth_blur_radius">23</integer>
-    <dimen name="max_depth_blur_radius_enhanced">23px</dimen>
-</resources>

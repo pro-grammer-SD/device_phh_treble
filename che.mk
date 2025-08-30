@@ -56,6 +56,8 @@ WITH_GMS := true
 TARGET_USES_CORE_GAPPS := true
 # WITH_GMS := false
 
+PRODUCT_USE_SCUDO := true
+
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 
