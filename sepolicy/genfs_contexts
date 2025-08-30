@@ -1,4 +1,1 @@
 genfscon sysfs /board_properties u:object_r:sysfs_board_properties:s0
-
-genfscon sysfs /devices/virtual/timed_output/vibrator u:object_r:sysfs_vibrator:s0
-
