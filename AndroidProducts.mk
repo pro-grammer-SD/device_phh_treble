@@ -4,6 +4,7 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/infinity_a64_vanilla.mk \
 	$(LOCAL_DIR)/derpfest_gsi_gapps.mk \
 	$(LOCAL_DIR)/derpfest_gsi_microg.mk \
+	$(LOCAL_DIR)/derpfest_gsi_vanilla.mk \
 	$(LOCAL_DIR)/derpfest_a64_vanilla.mk \
 	$(LOCAL_DIR)/witaqua_gsi_gapps.mk \
 	$(LOCAL_DIR)/witaqua_gsi_vanilla.mk \
