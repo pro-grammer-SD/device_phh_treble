@@ -9,14 +9,8 @@ on property:vold.decrypt=trigger_restart_framework
 
 on early-boot
     exec - root -- /system/bin/phh-on-data.sh
-    start create_fake_vibrator
 
 service phh_on_boot /system/bin/phh-on-boot.sh
-    oneshot
-    disabled
-
-service create_fake_vibrator /system/bin/create_fake_vibrator.sh
-    class main
     oneshot
     disabled
 
