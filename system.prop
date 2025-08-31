@@ -74,17 +74,5 @@ persist.radio.VT_ENABLE=1
 persist.sys.cust.lte_config=true
 persist.rcs.supported=1
 
-# Default heap sizes. Allow up to 256m for large heaps to make sure a single app
-# doesn't take all of the RAM.
-dalvik.vm.heapgrowthlimit=128m
-dalvik.vm.heapsize=256m
-dalvik.vm.madvise.vdexfile.size=104857600
-dalvik.vm.madvise.odexfile.size=104857600
-dalvik.vm.madvise-random=true
-dalvik.vm.madvise.artfile.size=0
-
-# disable machine learning
-ro.nnapi.extensions.deny_on_product=true
-
 # Everything that exists is born without reason, prolongs itself through weakness and dies through an unforeseen encounter.
 
