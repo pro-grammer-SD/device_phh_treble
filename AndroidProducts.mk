@@ -8,6 +8,7 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/derpfest_a64_vanilla.mk \
 	$(LOCAL_DIR)/witaqua_gsi_gapps.mk \
 	$(LOCAL_DIR)/witaqua_gsi_vanilla.mk \
+	$(LOCAL_DIR)/witaqua_gsi_microg.mk \
 	$(LOCAL_DIR)/witaqua_a64_vanilla.mk \
 	$(LOCAL_DIR)/axion_gsi.mk \
 	$(LOCAL_DIR)/pixelage_gsi.mk \
