@@ -372,24 +372,32 @@ if [ "$1" == "persist.sys.phh.sf.background_blur" ]; then
 fi
 
 if [ "$1" == "debug.renderengine.backend" ]; then
-    if [[ "$prop_value" == "" ]]; then
-        resetprop_phh debug.renderengine.backend ""
-    elif [[ "$prop_value" == "skiagl" ]]; then
-        resetprop_phh debug.renderengine.backend skiagl
-    elif [[ "$prop_value" == "skiaglthreaded" ]]; then
-        resetprop_phh debug.renderengine.backend skiaglthreaded
-    elif [[ "$prop_value" == "skiavk" ]]; then
-        resetprop_phh debug.renderengine.backend skiavk
-    elif [[ "$prop_value" == "skiavkthreaded" ]]; then
-        resetprop_phh debug.renderengine.backend skiavkthreaded
-    else
-        # valor inválido
+    if [[ "$prop_value" != "" && "$prop_value" != "skiagl" && "$prop_value" != "skiaglthreaded" && "$prop_value" != "skiavk" && "$prop_value" != "skiavkthreaded" ]]; then
         exit 1
     fi
+
+    if [[ "$prop_value" == "" ]]; then
+        resetprop_phh --delete debug.renderengine.backend
+    fi
+
+    if [[ "$prop_value" == skiagl ]]; then
+        resetprop_phh debug.renderengine.backend skiagl
+    fi
+
+    if [[ "$prop_value" == skiaglthreaded ]]; then
+        resetprop_phh debug.renderengine.backend skiaglthreaded
+    fi
+
+    if [[ "$prop_value" == skiavk ]]; then
+        resetprop_phh debug.renderengine.backend skiavk
+    fi
+
+    if [[ "$prop_value" == skiavkthreaded ]]; then
+        resetprop_phh debug.renderengine.backend skiavkthreaded
+    fi
+
     exit
 fi
-
-
 
 if [ "$1" == "persist.sys.phh.restricted_networking" ];then
     if [[ "$prop_value" != "0" && "$prop_value" != "1" ]]; then
