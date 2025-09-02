@@ -74,5 +74,12 @@ persist.radio.VT_ENABLE=1
 persist.sys.cust.lte_config=true
 persist.rcs.supported=1
 
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapmaxfree=16m
+dalvik.vm.heapminfree=8m
+dalvik.vm.heapsize=512m
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heaptargetutilization=0.6
+
 # Everything that exists is born without reason, prolongs itself through weakness and dies through an unforeseen encounter.
 
