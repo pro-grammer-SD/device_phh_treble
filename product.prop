@@ -20,7 +20,6 @@ is_expressive_design_enabled=true
 # touch improve
 windowsmgr.max_events_per_sec=120
 ro.max.fling_velocity=8000
-ro.input.highres_time=1
 touch.pressure.scale=0.001
 debug.egl.swapinterval=1
 
