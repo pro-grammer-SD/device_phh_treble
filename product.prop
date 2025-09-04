@@ -5,8 +5,8 @@ ro.lmk.kill_timeout_ms=1000
 ro.lmk.low=800
 ro.lmk.medium=700
 ro.lmk.enable_adaptive_lmk=true
-ro.lmk.kill_heaviest_task=true
-ro.lmk.critical_upgrade=true
+ro.lmk.kill_heaviest_task=false
+ro.lmk.critical_upgrade=false
 ro.config.low_ram=false
 
 #blur active
