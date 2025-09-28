@@ -1,12 +1,9 @@
 #PERFORMANCE
 
 # LMK
-ro.lmk.kill_timeout_ms=1000
-ro.lmk.low=800
-ro.lmk.medium=700
 ro.lmk.enable_adaptive_lmk=true
-ro.lmk.kill_heaviest_task=false
-ro.lmk.critical_upgrade=false
+ro.lmk.kill_heaviest_task=true
+ro.lmk.critical_upgrade=true
 ro.config.low_ram=false
 
 #blur active
@@ -16,15 +13,6 @@ ro.launcher.blur.appLaunch=0
 
 # Enable Material Design 3 Expressive
 is_expressive_design_enabled=true
-
-# touch improve
-windowsmgr.max_events_per_sec=120
-ro.max.fling_velocity=8000
-touch.pressure.scale=0.001
-debug.egl.swapinterval=1
-
-# disable machine learning
-ro.nnapi.extensions.deny_on_product=true
 
 # calls
 ro.telephony.block_binder_thread_on_incoming_calls=false
