@@ -18,16 +18,15 @@ TARGET_PRODUCT_PROP += device/phh/treble/product.prop
 # Overwrite the inherited "emulator" characteristics
 PRODUCT_CHARACTERISTICS := device
 
-PRODUCT_PACKAGES +=
-
-PRODUCT_PACKAGES += apns-conf.xml
-
-
 RISING_MAINTAINER := Doze-off
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer=Doze-off
+
 TARGET_ENABLE_BLUR := true
 
 
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
 
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
