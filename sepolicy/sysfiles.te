@@ -3,3 +3,7 @@ allow platform_app sysfs:file { read open getattr };
 allow platform_app sysfs_net:file { read open getattr };
 allow platform_app sysfs_net:dir { read open getattr search };
 allow platform_app sysfs:dir { read open getattr search };
+
+
+allow init proc_vm_dirty:file rw_file_perms;
+allow init proc_dirty_ratio:file rw_file_perms;
