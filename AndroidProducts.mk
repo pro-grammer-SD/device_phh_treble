@@ -19,5 +19,5 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/yaap_gsi.mk \
 	$(LOCAL_DIR)/rising_gsi.mk \
 	$(LOCAL_DIR)/everest_gsi.mk \
-
+	$(LOCAL_DIR)/alphadroid_gsi.mk \
 

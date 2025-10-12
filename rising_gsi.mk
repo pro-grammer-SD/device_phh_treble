@@ -25,7 +25,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_ENABLE_BLUR := true
 
 
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+
+TARGET_DEFAULT_PIXEL_LAUNCHER = false
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.default_launcher=0 \
+    persist.sys.quickswitch_pixel_shipped=1
 
 
 WITH_GMS := true
