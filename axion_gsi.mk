@@ -19,10 +19,6 @@ TARGET_PRODUCT_PROP += device/phh/treble/product.prop
 # Overwrite the inherited "emulator" characteristics
 PRODUCT_CHARACTERISTICS := device
 
-PRODUCT_PACKAGES +=
-
-PRODUCT_PACKAGES += apns-conf.xml
-
 WITH_ADB_INSECURE := true
 
 PRODUCT_EXTRA_VNDK_VERSIONS += 28 29

@@ -82,5 +82,8 @@ dalvik.vm.heapsize=512m
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heaptargetutilization=0.6
 
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=2
+
 # Everything that exists is born without reason, prolongs itself through weakness and dies through an unforeseen encounter.
 
