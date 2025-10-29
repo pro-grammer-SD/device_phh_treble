@@ -2,6 +2,8 @@ TARGET_GAPPS_ARCH := arm64
 include build/make/target/product/aosp_arm64.mk
 $(call inherit-product, device/phh/treble/base.mk)
 
+# $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+# $(call inherit-product, vendor/microg/microg.mk)
 
 $(call inherit-product, device/phh/treble/lineage.mk)
 
