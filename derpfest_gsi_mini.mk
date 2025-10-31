@@ -8,7 +8,7 @@ $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 $(call inherit-product, device/phh/treble/derp.mk)
 
-PRODUCT_NAME := derpfest_gsi_gapps
+PRODUCT_NAME := derpfest_gsi_mini
 PRODUCT_DEVICE := tdgsi_arm64_ab
 PRODUCT_BRAND := google
 PRODUCT_SYSTEM_BRAND := google
@@ -27,7 +27,5 @@ TARGET_PRODUCT_PROP += device/phh/treble/product.prop
 PRODUCT_CHARACTERISTICS := device
 
 WITH_ADB_INSECURE := true
-
-WITH_GMS := true
 
 PRODUCT_EXTRA_VNDK_VERSIONS += 28 29
