@@ -1,8 +1,9 @@
-$(call inherit-product, vendor/lineage/config/common.mk)
+# $(call inherit-product, vendor/lineage/config/common.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
 $(call inherit-product, vendor/lineage/config/BoardConfigLineage.mk)
 $(call inherit-product, device/lineage/sepolicy/common/sepolicy.mk)
+$(call inherit-product, vendor/avium/avium.mk)
 -include vendor/lineage/build/core/config.mk
 
 TARGET_NO_KERNEL_OVERRIDE := true
@@ -31,8 +32,8 @@ WITH_GMS := true
 TARGET_GMS_TYPE := PICO
 
 # Google IMS
-TARGET_INCLUDE_GOOGLEIME := false
-TARGET_GOOGLEIME_OVERRIDE_IME := false
+TARGET_INCLUDE_GOOGLEIME := true
+TARGET_GOOGLEIME_OVERRIDE_IME := true
 
 AVIUM_MAINTAINER := Doze-off
 TARGET_DISABLE_EPPE := true
