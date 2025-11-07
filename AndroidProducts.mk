@@ -20,4 +20,5 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/everest_gsi.mk \
 	$(LOCAL_DIR)/alphadroid_gsi.mk \
 	$(LOCAL_DIR)/avium_gsi.mk \
+	$(LOCAL_DIR)/euclid_gsi.mk \
 
