@@ -1,9 +1,9 @@
-# $(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
 $(call inherit-product, vendor/lineage/config/BoardConfigLineage.mk)
 $(call inherit-product, device/lineage/sepolicy/common/sepolicy.mk)
-$(call inherit-product, vendor/avium/avium.mk)
+# $(call inherit-product, vendor/avium/avium.mk)
 -include vendor/lineage/build/core/config.mk
 
 TARGET_NO_KERNEL_OVERRIDE := true
