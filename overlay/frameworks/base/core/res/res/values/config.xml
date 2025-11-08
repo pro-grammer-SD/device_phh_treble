@@ -73,12 +73,7 @@
 
 	<integer name="config_num_physical_slots">2</integer>
 
-	<!-- Circle to search -->
-    <!-- Contextual Search -->
-    <string name="config_defaultContextualSearchEnabled">omni.enable_cs_helper</string>
-    <string name="config_defaultContextualSearchKey">omni.entry_point</string>
-    <string name="config_defaultContextualSearchLegacyEnabled">omni.enable_vis</string>
-    <string name="config_defaultContextualSearchPackageName" translatable="false">com.google.android.googlequicksearchbox</string>
+
 
     <string-array name="config_packagesExemptFromSuspension" translatable="false">
 	    <item>me.phh.treble.app</item>
