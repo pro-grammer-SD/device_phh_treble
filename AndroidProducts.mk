@@ -21,4 +21,5 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/alphadroid_gsi.mk \
 	$(LOCAL_DIR)/avium_gsi.mk \
 	$(LOCAL_DIR)/euclid_gsi.mk \
+	$(LOCAL_DIR)/superior_gsi.mk \
 
