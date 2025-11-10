@@ -2,6 +2,10 @@ TARGET_GAPPS_ARCH := arm64
 include build/make/target/product/aosp_arm64.mk
 $(call inherit-product, device/phh/treble/base.mk)
 
+$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/pixel/config.mk)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 $(call inherit-product, device/phh/treble/derp.mk)
 
 PRODUCT_NAME := derpfest_gsi
