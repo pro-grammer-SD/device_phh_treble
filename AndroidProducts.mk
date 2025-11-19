@@ -23,4 +23,5 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/euclid_gsi.mk \
 	$(LOCAL_DIR)/superior_gsi.mk \
 	$(LOCAL_DIR)/luminedroid_gsi.mk \
+	$(LOCAL_DIR)/mica_gsi.mk \
 
