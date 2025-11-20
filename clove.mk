@@ -2,7 +2,7 @@ $(call inherit-product, vendor/clover/config/common.mk)
 $(call inherit-product, vendor/clover/config/common_full_phone.mk)
 $(call inherit-product, vendor/clover/config/BoardConfigSoong.mk)
 $(call inherit-product, vendor/clover/config/BoardConfigClover.mk)
-$(call inherit-product, device/lineage/sepolicy/common/sepolicy.mk)
+$(call inherit-product, device/clover/sepolicy/common/sepolicy.mk)
 -include vendor/clover/build/core/config.mk
 
 TARGET_NO_KERNEL_OVERRIDE := true
@@ -19,8 +19,6 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-PRODUCT_USE_SCUDO := true
 
 # Other flags
 TARGET_INCLUDE_MATLOG := true
