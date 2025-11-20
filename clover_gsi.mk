@@ -1,12 +1,9 @@
 TARGET_GAPPS_ARCH := arm64
 include build/make/target/product/aosp_arm64.mk
 $(call inherit-product, device/phh/treble/base.mk)
-#include vendor/gapps/arm64/arm64-vendor.mk
-# include vendor/gms/gms_pico.mk
 
 $(call inherit-product, device/phh/treble/clove.mk)
-#include vendor/pixel-framework/config.mk
-#include vendor/google/pixel/config.mk
+
 
 PRODUCT_NAME := clover_gsi
 PRODUCT_DEVICE := tdgsi_arm64_ab
@@ -21,10 +18,6 @@ TARGET_PRODUCT_PROP += device/phh/treble/product.prop
 
 # Overwrite the inherited "emulator" characteristics
 PRODUCT_CHARACTERISTICS := device
-
-PRODUCT_PACKAGES +=
-
-PRODUCT_PACKAGES += apns-conf.xml
 
 WITH_ADB_INSECURE := true
 WITH_GMS := true

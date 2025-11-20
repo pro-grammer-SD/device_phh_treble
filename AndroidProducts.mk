@@ -24,4 +24,5 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/superior_gsi.mk \
 	$(LOCAL_DIR)/luminedroid_gsi.mk \
 	$(LOCAL_DIR)/mica_gsi.mk \
+	$(LOCAL_DIR)/clover_gsi.mk \
 
