@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += apns-conf.xml
 WITH_ADB_INSECURE := true
 
 PRODUCT_EXTRA_VNDK_VERSIONS += 28 29
-
+WITH_GMS := true
 
 
 #remove makupgoogle
